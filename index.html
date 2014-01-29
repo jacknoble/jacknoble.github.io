@@ -45,14 +45,10 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<b class="caret"></b></a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Projectsherpa</a></li>
-                    <li><a href="#">JacktiveRecord</a></li>
-                    <li><a href="#">RubyChess</a></li>
-                    <li><a href="#">Serpentine</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
+                    <li><a href="#projectsherpa">Projectsherpa</a></li>
+                    <li><a href="#jactiverecord">JacktiveRecord</a></li>
+                    <li><a href="#rubychess">RubyChess</a></li>
+                    <li><a href="#serpentine">Serpentine</a></li>
                   </ul>
                 </li>
               </ul>
@@ -64,24 +60,24 @@
 
 
     <div class="container">
-        <div class="row">
+        <div class="row" id="aboutme">
             <div class="col-xs-3">
-                <img src="img/ggportrait.jpg" style="height: auto; width: 300px;">
+                <img src="img/ggportrait.jpg" class="img-circle" style="height: 300px; width: 300px;">
             </div>
-            <div class="col-xs-6 col-xs-offset-2 well" style="margin-top: 50px" >
-                <p id="aboutme">I'm currently looking for a position as a web developer in the Bay Area. Specialties and favorite tools: Ruby on Rails and Backbone.js (you can tell I like my MVC). I love Ruby; it's like writing philosophy. I'm also JavaScript and SQL fluent (primarily Postgres). RSpec and Capybara for testing. I've played around with Node.js and that was a thrill. I'd like to work on the full stack somewhere, but I'll be happy anywhere I get to tackle challenging puzzles and learn new things every day. I'd love to keep pair-programming on a regular basis, too.</p>
+            <div class="col-xs-6 col-xs-offset-2 well" style="margin-top: 10px" >
+                <p>I'm currently looking for a position as a web developer in the Bay Area. Specialties and favorite tools: Ruby on Rails and Backbone.js (you can tell I like my MVC). I love Ruby; it's like writing philosophy. I'm also JavaScript and SQL fluent (primarily Postgres). RSpec and Capybara for testing. I've played around with Node.js and that was a thrill. I'd like to work on the full stack somewhere, but I'll be happy anywhere I get to tackle challenging puzzles and learn new things every day. I'd love to keep pair-programming on a regular basis, too.</p>
 
                 <p>Before diving head-first into web development I worked in Washington D.C as a freelance researcher and editor where I honed talents for writing and mastering new fields very quickly (e.g. cognitive science, congressional politics, and the ethics of war).</p>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-xs-3">
-                <img src="img/sherpaintro.png" style="height: auto; width: 300px;">
+        <div class="row" id="projectsherpa">
+            <div class="col-xs-3" style="margin-top: 10px">
+                <img src="img/sherpaintro.png" class="img-circle" style="height: 300px; width: 300px;">
             </div>
-            <div class="col-xs-6 col-xs-offset-2 well" style="margin-top: 50px">
+            <div class="col-xs-6 col-xs-offset-2 well" style="margin-top: 75px">
 
-            <h3 id="projectsherpa">Projectsherpa.io</h3>
+            <h3>Projectsherpa.io</h3>
             <p>A single-page Basecamp clone written with Rails and Backbone over a week and a half. Uses polymorphic associations, lots of Backbone sub-views, some tricky deeply-nested JSON objects.</p>
             <a href="http://projectsherpa.io">Live, </a>
             <a href="http://github.com/jacknoble/projectsherpa">Source</a>
@@ -89,42 +85,72 @@
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-xs-3">
-                <img src="img/jrecord.png" style="height: auto; width: 300px;">
+        <div class="row" id="jactiverecord">
+            <div class="col-xs-3" style="margin-top: 20px">
+                <img src="img/jrecord.png" class="img-circle" style="height: 300px; width: 300px;">
             </div>
-            <div class="col-xs-6 col-xs-offset-2 well" style="margin-top: 50px">
+            <div class="col-xs-6 col-xs-offset-2 well" style="margin-top: 75px">
 
-            <h3 id="jactiverecord">JacktiveRecord</h3>
+            <h3>JacktiveRecord</h3>
             <p>A lightweight clone of the Rails’s object-relational mapping system employing Ruby meta-programming.</p>
             <a href="http://github.com/jacknoble/jacktive-record">Source</a>
         
             </div>
         </div>
+
+        <div class="row" id="rubychess">
+            <div class="col-xs-3" style="margin-top: 20px">
+                <img src="img/chess.png" class="img-circle" style="height: 300px; width: 300px;">
+            </div>
+            <div class="col-xs-6 col-xs-offset-2 well" style="margin-top: 75px">
+
+            <h3>RubyChess</h3>
+            <p>A modular, object-oriented Chess game in Ruby. It uses inheritance and Ruby's Vector class in interesting ways.</p>
+
+            <a href="https://github.com/jacknoble/ruby_chess">Source</a>
+        
+            </div>
+        </div>
+
+          <div class="row" id="serpentine">
+            <div class="col-xs-3" style="margin-top: 20px">
+                <img src="img/serpentine.png" class="img-circle" style="height: 300px; width: 300px;">
+            </div>
+            <div class="col-xs-6 col-xs-offset-2 well" style="margin-top: 75px">
+
+           <h3 id="serpentine">Serpentine</h3>
+        <p>A playable “Snake” game written in JavaScript.</p>
+        <a href="http://jacknoble.github.io/serpentine">Live,</a>
+        <a href="https://github.com/jacknoble/serpentine">Source</a>
+        
+            </div>
+        </div>
+
+
+        <div class="row" id="contact">
+            <div class="col-xs-3" style="margin-top: 20px">
+                <img src="img/contact.jpg" class="img-circle" style="height: 300px; width: 300px;">
+            </div>
+           <div class="col-xs-6 col-xs-offset-2 well" style="margin-top: 75px">
+            <h3>Make contact...</h3>
+            <p>jack.noble@gmail.com</p>
+            <p>301.233.0222</p>
+            <p>
+            <a href="http://www.linkedin.com/pub/jack-noble/78/202/302/">LinkedIn</a>
+            </p>
+            <p>
+            <a href="https://github.com/jacknoble">Github</a>
+            </p>
+            </div>
+        </div>
     </div>
 
-
-        
-        
-        <h3 id="jactiverecord">JacktiveRecord</h3>
-        <p>A lightweight clone of the Rails’s object-relational mapping system employing Ruby meta-programming.</p>
-        <a href="http://github.com/jacknoble/jacktive-record">Source</a>
-
-        <h3 id="rubychess">RubyChess</h3>
-        <p>A modular, object-oriented Chess game in Ruby. It uses inheritance and Ruby's Vector class in interesting ways.</p>
-
-        <a href="https://github.com/jacknoble/ruby_chess">Source</a>
-
-        <h3 id="serpentine">Serpentine</h3>
-        <p>A playable “Snake” game written in JavaScript.</p>
-        <a href="http://jacknoble.github.io/serpentine">Live</a>
-        <a href="https://github.com/jacknoble/serpentine">Source</a>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-        <script src="bootstrap.min.js"</script>
+        <script src="js/vendor/bootstrap.min.js"</script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
