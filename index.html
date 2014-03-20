@@ -17,14 +17,14 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body>
+    <body background="img/paper_background.jpg">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
 
-        <div class="navbar-wrapper">
+    <div class="navbar-wrapper">
       <div class="container">
 
         <div class="navbar navbar-inverse navbar-static-top" role="navigation">
@@ -42,9 +42,11 @@
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#aboutme">About me</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="resume.html">Resume</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<b class="caret"></b></a>
                   <ul class="dropdown-menu">
+                    <li><a href="#coffee_date">CoffeeDate</a></li>
                     <li><a href="#projectsherpa">Projectsherpa</a></li>
                     <li><a href="#jactiverecord">JacktiveRecord</a></li>
                     <li><a href="#rubychess">RubyChess</a></li>
@@ -68,6 +70,20 @@
                 <p>I'm currently looking for a position as a web developer in the Bay Area. Specialties and favorite tools: Ruby on Rails and Backbone.js (you can tell I like my MVC). I love Ruby; it's like writing philosophy. I'm also JavaScript and SQL fluent (primarily Postgres). RSpec and Capybara for testing. I've played around with Node.js and that was a thrill. I'd like to work on the full stack somewhere, but I'll be happy anywhere I get to tackle challenging puzzles and learn new things every day. I'd love to keep pair-programming on a regular basis, too.</p>
 
                 <p>Before diving head-first into web development I worked in Washington D.C as a freelance researcher and editor where I honed talents for writing and mastering new fields very quickly (e.g. cognitive science, congressional politics, and the ethics of war).</p>
+            </div>
+        </div>
+
+        <div class="row" id="coffee_date">
+            <div class="col-xs-3" style="margin-top: 10px">
+                <img src="img/coffeend.png" class="img-circle" style="height: 300px; width: 300px;">
+            </div>
+            <div class="col-xs-6 col-xs-offset-2 well" style="margin-top: 75px">
+
+            <h3>CoffeeDate</h3>
+            <p>A Meetup.com for lonely people hanging out in coffee shops. Uses Rails, Redis, Backbone, several Google APIs, and multithreading to get around Google’s performance restrictions.</p>
+            <a href="http://coffeend.herokuapp.com">Live, </a>
+            <a href="http://github.com/jacknoble/coffeend">Source</a>
+        
             </div>
         </div>
 
@@ -146,8 +162,7 @@
     </div>
 
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="js/vendor/bootstrap.min.js"</script>
